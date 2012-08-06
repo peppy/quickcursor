@@ -143,7 +143,7 @@
 	[QCAppDelegate universalAccessNeedsToBeTurnedOn];
 
     quickCursorStatusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain];
-	NSImage *image = [NSImage imageNamed:@"StatusItemIcon.png"];
+	NSImage *image = [NSImage imageNamed:@"StatusItemIcon"];
 	[image setTemplate:YES];
 	[quickCursorStatusItem setImage:image];
     [quickCursorStatusItem setHighlightMode:YES];
